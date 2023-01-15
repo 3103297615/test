@@ -6,6 +6,8 @@ public class student {
 
     private String address;
 
+
+
     public student(){
 
     }
@@ -36,6 +38,7 @@ public class student {
         return "student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 }
